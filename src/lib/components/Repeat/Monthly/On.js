@@ -27,7 +27,7 @@ const RepeatMonthlyOn = ({
         )}
       </div>
       <div className="col-sm-1">
-        on day
+        On day
       </div>
 
       <div className="col-sm-2">

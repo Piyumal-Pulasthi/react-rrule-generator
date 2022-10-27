@@ -21,7 +21,7 @@ const RepeatWeekly = ({
     <div className="px-3">
       <div className="form-group row d-flex align-items-sm-center">
         <div className="col-sm-1 offset-sm-2">
-          every
+          Every
         </div>
         <div className="col-sm-3">
           <input
@@ -34,7 +34,7 @@ const RepeatWeekly = ({
           />
         </div>
         <div className="col-sm-1">
-          week(s)
+          Week(s)
         </div>
       </div>
 

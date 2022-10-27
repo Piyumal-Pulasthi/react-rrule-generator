@@ -11,7 +11,7 @@ const RepeatHourly = ({
 }) => (
   <div className="form-group row d-flex align-items-sm-center">
     <div className="col-sm-1 offset-sm-2">
-      every
+      Every
     </div>
     <div className="col-sm-2">
       <input
@@ -24,7 +24,7 @@ const RepeatHourly = ({
       />
     </div>
     <div className="col-sm-1">
-      day(s)
+      Day(s)
     </div>
   </div>
 );
