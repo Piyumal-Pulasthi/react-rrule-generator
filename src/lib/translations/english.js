@@ -70,12 +70,12 @@ export default {
     daily: {
       label: 'Daily',
       every: 'every',
-      days: 'day(s)',
+      days: 'Day(s)',
     },
     hourly: {
       label: 'Hourly',
       every: 'every',
-      hours: 'hour(s)',
+      hours: 'Hour(s)',
     },
   },
   end: {
