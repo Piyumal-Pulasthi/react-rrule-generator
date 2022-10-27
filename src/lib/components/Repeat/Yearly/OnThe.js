@@ -28,7 +28,7 @@ const RepeatYearlyOnThe = ({
         )}
       </div>
       <div className="col-sm-1">
-        on the
+        On the
       </div>
 
       <div className="col-sm-2">
