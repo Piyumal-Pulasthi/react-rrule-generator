@@ -58,14 +58,14 @@ export default {
     monthly: {
       label: 'Monthly',
       every: 'every',
-      months: 'month(s)',
+      months: 'Month(s)',
       on_day: 'on day',
-      on_the: 'on the',
+      on_the: 'On the',
     },
     weekly: {
       label: 'Weekly',
       every: 'every',
-      weeks: 'week(s)',
+      weeks: 'Week(s)',
     },
     daily: {
       label: 'Daily',
