@@ -21,6 +21,7 @@ class ReactRRuleGenerator extends PureComponent {
   );
 
   componentWillMount() {
+    console.log("COMPONENT WILL MOUNT INSIDE")
     if (this.props.onChange === ReactRRuleGenerator.defaultProps.onChange) {
       // no onChange() was provided
       throw new Error('No onChange() function has been passed to RRuleGenerator. \n' +
@@ -29,6 +30,7 @@ class ReactRRuleGenerator extends PureComponent {
 
     if (this.props.value) {
       // if value is provided to RRuleGenerator, it's used to compute state of component's forms
+      console.log("CHECK THIS", this.state.data, this.props.value)
       const data = computeRRuleFromString(this.state.data, this.props.value);
       this.setState({ data });
     }
@@ -51,6 +53,7 @@ class ReactRRuleGenerator extends PureComponent {
   };
 
   render() {
+    console.log("CAME INTO RENDER")
     const {
       id,
       data: {
